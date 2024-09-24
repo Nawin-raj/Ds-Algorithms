@@ -22,7 +22,12 @@ public class BST {
 		}
 
 	}
+/*
 
+Preorder traversal visits the node in the order: Root -> Left -> Right
+Inorder traversal visits the node in the order: Left -> Root -> Right
+Postorder traversal visits the node in the order: Left -> Right -> Root
+*/
 	public static void main(String[] args) {
 		BST b = new BST();
 
